@@ -9,8 +9,6 @@ import { omit } from 'lodash'
 import { isAxiosUnprocessableEntityError } from 'src/utils/utils'
 import { ResponseApi } from 'src/types/utils.type'
 
-
-
 type FormData = Schema
 
 export default function Register() {
